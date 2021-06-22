@@ -1,3 +1,7 @@
+.row *{
+    border: 1px solid red;
+}
+
 header{
     height: 90px;
     background-color: #2c3e50;

@@ -25,3 +25,8 @@ header{
 }
 
 /*= FOOTER */
+
+footer{
+    height: 110px;
+    background-color: #2c3e50;
+}

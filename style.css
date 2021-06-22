@@ -3,9 +3,11 @@
     border: 1px solid red;
 }
 
-main *{
+main .row{
     height: 500px;
 }
+
+
 
 .bg-aqua-green{
     background-color: #1abc9c;

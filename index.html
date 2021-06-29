@@ -10,14 +10,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid bg-dark-blue py-5">
          <nav class="row h-100 align-items-center justify-content-between justify-content-sm-around text-light">
              <div class="col-6 text-uppercase">start bootstrap</div>
              <div class="col-6 text-end"><i class="bi bi-list fs-4"></i></div>
          </nav>
     </header>
     <main>
-        <div class="bg-aqua-green">
+        <div class="bg-aqua-green py-5">
             <section class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 offset-md-3 col-xl-4 offset-xl-4 text-light text-center">
@@ -33,7 +33,7 @@
                 </div>
             </section>
         </div>
-        <section class="container">
+        <section class="container my-5">
             <div class="row">
                 <div class="col-12">
                     <h2 class=" fs-1 text-uppercase text-center">portfolio</h2>
@@ -53,7 +53,7 @@
                 <div class="col-12 col-md-6 col-lg-4"><img class="img-fluid" src="./img/submarine.png" alt=""></div>
             </div>
         </section>
-        <section class="bg-aqua-green">
+        <section class="bg-aqua-green py-5">
             <div class="container text-light">
                 <div class="row">
                     <div class="col-12">
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </section>
-        <section class="container text-dark">
+        <section class="container text-dark my-5">
             <div class="row">
                 <div class="col-12">
                     <h2 class=" fs-1 text-uppercase text-center">Contact me</h2>
@@ -104,15 +104,30 @@
             </div>    
         </section>
     </main>
-    <footer class="container-fluid">
-        <div id="top-footer">
-            <div class="row "> <!-- g-3 -->
-                <div class="col-12 col-md-4"></div>
-                <div class="col-12 col-md-4"></div>
-                <div class="col-12 col-md-4"></div>
+    <footer class="container-fluid text-light">
+        <div id="top-footer" class="bg-blue">
+            <div class="row py-5">
+                <div class="col-12 col-md-4 text-center">
+                    <h4 class="text-uppercase ">Location</h4>
+                    <div>2215 John Daniel Drive Clark, MO 54243</div>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <h4 class="text-uppercase mb-3">Around The Web</h4>
+                    <div class="fs-6">
+                        <!-- 4 icone -->
+                        <i class="bi bi-facebook m-2 p-2 border rounded-circle"></i>
+                        <i class="bi bi-google m-2 p-2 border rounded-circle"></i>
+                        <i class="bi bi-twitter m-2 p-2 border rounded-circle"></i>
+                        <i class="bi bi-linkedin m-2 p-2 border rounded-circle"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <h4 class="text-uppercase">About Freelancer</h4>
+                    <div>Freelance is a free to use, open source Bootstrap theme created by <span class="color-aqua-green">Start Bootstrap</span>.</div>
+                </div>
             </div>
         </div>
-        <div id="bottom-footer"></div>
+        <div id="bottom-footer" class="bg-dark-blue text-center py-5">Copyright &#xA9; Your Website 2019</div>
     </footer>                   
 </body>
 </html>

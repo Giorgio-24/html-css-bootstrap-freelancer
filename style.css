@@ -1,33 +1,22 @@
 /*= GENERALS UTILITIES */
-
-/* main .row{
-    height: 500px;
-} */
-
 div.line{
     width: 75px;
     height: 2px;
     margin: 0 10px;
 }
 
+.color-aqua-green{
+    color: #1abc9c;
+}
+
 .bg-aqua-green{
     background-color: #1abc9c;
 }
 
-/*= HEADER */
-header{
-    height: 90px;
+.bg-dark-blue{
     background-color: #2c3e50;
-}
+}   
 
-/*= MAIN */
-#bg-blue{
+.bg-blue{
     background-color: #3a546d;
-}
-
-/*= FOOTER */
-
-footer{
-    /* height: 110px; */
-    background-color: #2c3e50;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,17 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid bg-dark-blue py-5">
+    <header class="container-fluid bg-dark-blue py-4">
          <nav class="row h-100 align-items-center justify-content-between justify-content-sm-around text-light">
-             <div class="col-6 text-uppercase">start bootstrap</div>
-             <div class="col-6 text-end"><i class="bi bi-list fs-4"></i></div>
+             <div class="col-5 text-uppercase fs-4 fw-bold">start bootstrap</div>
+             <div class="d-sm-none col-5 text-end"><i class="bi bi-list fs-2 fw-bold border border-2 rounded-3 text-secondary px-2"></i></div>
+             <div class="d-none d-sm-inline-block col-sm-5">
+                 <ul class="list-unstyled text-uppercase text-center m-0">
+                     <li class="d-inline-block p-2"><a class="text-decoration-none text-light" href="#portfolio">Portfolio</a></li>
+                     <li class="d-inline-block p-2"><a class="text-decoration-none text-light" href="#about">About</a></li>
+                     <li class="d-inline-block p-2"><a class="text-decoration-none text-light" href="#contact">Contact</a></li>
+                 </ul>
+             </div>
          </nav>
     </header>
     <main>
@@ -33,10 +40,10 @@
                 </div>
             </section>
         </div>
-        <section class="container my-5">
+        <section id="portfolio" class="container my-5">
             <div class="row">
                 <div class="col-12">
-                    <h2 class=" fs-1 text-uppercase text-center">portfolio</h2>
+                    <h2 class="fs-1 text-uppercase text-center">portfolio</h2>
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="line d-inline-block bg-dark"></div>
                         <i class="bi bi-star-fill fs-1"></i>
@@ -53,7 +60,7 @@
                 <div class="col-12 col-md-6 col-lg-4"><img class="img-fluid" src="./img/submarine.png" alt=""></div>
             </div>
         </section>
-        <section class="bg-aqua-green py-5">
+        <section id="about" class="bg-aqua-green py-5">
             <div class="container text-light">
                 <div class="row">
                     <div class="col-12">
@@ -74,7 +81,7 @@
                 </div>
             </div>
         </section>
-        <section class="container text-dark my-5">
+        <section id="contact" class="container text-dark my-5">
             <div class="row">
                 <div class="col-12">
                     <h2 class=" fs-1 text-uppercase text-center">Contact me</h2>
